@@ -1,0 +1,7 @@
+{
+  "_comment": "Update this when each Finals game ends. cross_venue.py reads at 15:00 ET. Format: [home_wins, away_wins] from THE NEXT GAME perspective. NBA: G2 at SA, NY won 105-104. Series 1-1. G3 at NY → NY home, both with 1 win → nba: [1, 1]. NHL: G1 at CAR (VGK won 5-4), G2 at CAR (CAR won 4-3 OT). Series 1-1. G3 at VGK → VGK home, both with 1 win → nhl: [1, 1].",
+  "_updated_at": "2026-06-06T16:45:00Z",
+  "_updated_by": "human",
+  "nba": [1, 1],
+  "nhl": [1, 1]
+}
