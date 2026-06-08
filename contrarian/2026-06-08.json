@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-06-08T15:32:49Z",
+  "contrarian_score": 0.437,
+  "degrade_recommendation": "MED",
+  "sizing_multiplier": 0.7,
+  "action": "cap new longs at 70% of normal sizing",
+  "active_signals": [
+    {
+      "source": "tom_lee_fundstrat",
+      "view": "calling 15-20% summer correction before year-end S&P 7700 rally",
+      "date": "2026-06-05",
+      "confidence": "stated_publicly_cnbc",
+      "bearish_strength": 0.75,
+      "ok": true
+    },
+    {
+      "source": "howard_marks_oaktree_memo",
+      "view": "'AI Hurtles Ahead' memo \u2014 valuation prudence required, bubble parallels",
+      "date": "2026-05-21",
+      "confidence": "memo_published",
+      "bearish_strength": 0.55,
+      "ok": true
+    },
+    {
+      "source": "spitznagel_universa",
+      "view": "blow-off-top then sharp reversal; tail-hedge profile maintained",
+      "date": "2026-04-30",
+      "confidence": "structural_tail_hedge_stance",
+      "bearish_strength": 0.55,
+      "ok": true
+    },
+    {
+      "source": "grantham_gmo",
+      "view": "AI = extreme bubble per Jan 2026 GMO paper; 'blood in the streets' May 2026",
+      "date": "2026-05-19",
+      "confidence": "quarterly_letter_plus_media",
+      "bearish_strength": 0.65,
+      "ok": true
+    },
+    {
+      "source": "burry_scion",
+      "view": "most recent 13F filed 2025-11-03 (acc 0001649339-25-000007); see prior NVDA + PLTR put history",
+      "date": "2025-11-03",
+      "confidence": "13F_filing_0001649339-25-000007",
+      "bearish_strength": 0.6,
+      "ok": true
+    }
+  ],
+  "regime_flags": {
+    "vix_above_25": false,
+    "yields_above_4_5": true,
+    "spx_below_50d_ma": false,
+    "tech_breadth_negative_5d": true
+  },
+  "regime_flags_detail": [
+    {
+      "name": "vix_above_25",
+      "value": 21.51,
+      "threshold": 25.0,
+      "triggered": false,
+      "note": "VIX last close = 21.51"
+    },
+    {
+      "name": "yields_above_4_5",
+      "value": 4.54,
+      "threshold": 4.5,
+      "triggered": true,
+      "note": "10Y yield = 4.54%"
+    },
+    {
+      "name": "spx_below_50d_ma",
+      "value": 7383.74,
+      "threshold": 7155.96,
+      "triggered": false,
+      "note": "SPX 7383.74 vs 50dma 7155.96"
+    },
+    {
+      "name": "tech_breadth_negative_5d",
+      "value": -5.61,
+      "threshold": 0.0,
+      "triggered": true,
+      "note": "XLK 5d return = -5.61%"
+    }
+  ],
+  "components": {
+    "avg_source_weight": 0.374,
+    "macro_sum": 0.5
+  },
+  "source_weights": [
+    {
+      "source": "tom_lee_fundstrat",
+      "weight": 0.75,
+      "recency": 1.0,
+      "bs": 0.75
+    },
+    {
+      "source": "howard_marks_oaktree_memo",
+      "weight": 0.385,
+      "recency": 0.7,
+      "bs": 0.55
+    },
+    {
+      "source": "spitznagel_universa",
+      "weight": 0.22000000000000003,
+      "recency": 0.4,
+      "bs": 0.55
+    },
+    {
+      "source": "grantham_gmo",
+      "weight": 0.45499999999999996,
+      "recency": 0.7,
+      "bs": 0.65
+    },
+    {
+      "source": "burry_scion",
+      "weight": 0.06,
+      "recency": 0.1,
+      "bs": 0.6
+    }
+  ],
+  "interpretation": "MED degrade. 2 of 4 macro flags active + 5 contrarian signals leaning bearish. Cap any new long position size at 70% of normal sizing for next 7 trading days. If contrarian_score crosses 0.75 within 5 days, halt new longs entirely.",
+  "sources_polled": 5,
+  "sources_total": 5
+}
